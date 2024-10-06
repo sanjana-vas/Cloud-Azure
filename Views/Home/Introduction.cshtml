@@ -1,0 +1,41 @@
+﻿@model k213375_cloud.Models.IntroductionModel
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+@{
+    ViewData["Title"] = "Introduction to Cloud Computing";
+}
+
+<!-- Bootstrap container for responsive layout -->
+<div class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h2>Cloud Computing Overview</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Cloud computing is the delivery of computing services, including servers, storage, databases, networking, software, and analytics, over the Internet
+                (“the cloud”). It enables faster innovation, flexible resources, and economies of scale.
+            </p>
+            <h3>Benefits of Cloud Computing</h3>
+            <ul>
+                <li>Scalability: Resources can be scaled up or down based on demand.</li>
+                <li>Cost Efficiency: Pay only for what you use, reducing infrastructure costs.</li>
+                <li>Flexibility: Access resources anytime, anywhere.</li>
+                <li>Accessibility: Easy access to applications and data from anywhere in the world.</li>
+                <li>Security: Advanced security measures to protect data.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="text-center mt-5">
+        <a class="btn btn-secondary" asp-action="Models">Go to Cloud Models</a>
+        <a class="btn btn-info" asp-action="Evolution">Go to Evolution of Cloud Computing</a>
+    </div>
+</div>
+

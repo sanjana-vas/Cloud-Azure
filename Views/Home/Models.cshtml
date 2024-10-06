@@ -1,0 +1,61 @@
+﻿@model k213375_cloud.Models.CloudModelsModel
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+<!-- Bootstrap container for responsive layout -->
+<div class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h2>Infrastructure as a Service (IaaS)</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Infrastructure as a Service (IaaS) contains the basic building blocks for cloud IT and typically provides access
+                to networking features, computers (virtual or on dedicated hardware), and data storage space. Infrastructure as
+                a Service vendors can help you with the highest level of flexibility and management control over your IT
+                resources and is most similar to existing IT resources that many IT departments and developers are familiar with today.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-white">
+            <h2>Platform as a Service (PaaS)</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Platforms as a Service (PaaS) vendors remove the need for organizations to manage the underlying infrastructure
+                (usually hardware and operating systems), and this integration allows you to focus on the deployment and
+                management of your applications. This helps you be more efficient as you don’t need to worry about resource
+                procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy
+                lifting involved in running your application.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-info text-white">
+            <h2>Software as a Service (SaaS)</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Software as a Service (SaaS) vendors provide you with software applications that are run and managed by the
+                vendor. In most cases, people referring to Software as a Service are referring to third-party end-user applications.
+                With a SaaS offering, you do not have to think about how the service is maintained or how the underlying
+                infrastructure is managed; you only need to think about how you will use that particular piece of software. A
+                common example of a SaaS application is web-based email where you can send and receive email without having to
+                manage feature additions to the email product or maintaining the servers and operating systems that the email program is running on.
+            </p>
+
+        </div>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="text-center mt-5">
+        <a class="btn btn-primary" asp-action="Introduction">Go to Introduction</a>
+        <a class="btn btn-secondary" asp-action="Evolution">Go to Evolution of Cloud Computing</a>
+    </div>
+</div>

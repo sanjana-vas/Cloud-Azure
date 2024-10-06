@@ -1,0 +1,104 @@
+﻿@model k213375_cloud.Models.EvolutionModel
+
+@{
+    ViewData["Title"] = "Evolution of Cloud Computing";
+}
+
+<!-- Bootstrap container for responsive layout -->
+<div class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h2>Mainframe Architecture</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                The journey of cloud computing can be traced back to the era of mainframes, where computing power was centralized.
+                Users connected to a central mainframe using simple terminals. The mainframes handled most of the processing power,
+                and the user terminals were merely interfaces to access computing resources.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-secondary text-white">
+            <h2>Intelligent Terminal: Beginning of Client-Server Computing</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                The concept of client-server computing emerged as a step forward from mainframes. Intelligent terminals were introduced that could perform
+                some level of local processing, unlike the "dumb" terminals of the mainframe era.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h2>The PC Revolution: Scope for Computing Everything Locally</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                The personal computer (PC) revolution of the 1980s marked a massive shift, as individuals could now perform computing tasks locally
+                without relying on centralized mainframes. This increased the accessibility and adoption of computers worldwide.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-info text-white">
+            <h2>Network of PCs: Emergence of Peer-to-Peer Communication</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                As PCs became more popular, the idea of networking them together emerged. In a peer-to-peer (P2P) network, each computer could communicate
+                directly with others, sharing files, resources, and processing power without a centralized server.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-white">
+            <h2>Fast Network Communication: Laid the Way for Distributed Computing</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                The development of high-speed networks in the 1990s was another pivotal moment. Faster internet connections enabled distributed computing,
+                where tasks could be divided among multiple computers for higher efficiency.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-danger text-white">
+            <h2>Cluster Computing: Creation of Resource Pool</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Cluster computing grouped multiple computers (nodes) into clusters to solve complex computational problems by pooling resources,
+                improving reliability, scalability, and performance.
+            </p>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header bg-dark text-white">
+            <h2>Grid Computing: Decentralization of Control</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Grid computing decentralized control by connecting geographically distributed and heterogeneous resources. It allowed resource sharing
+                across multiple organizations, introducing resource virtualization.
+            </p>
+        </div>
+    </div>
+
+    <!-- Navigation links -->
+    <div class="text-center mt-5">
+        <a class="btn btn-primary" asp-action="Introduction">Go to Introduction</a>
+        <a class="btn btn-secondary" asp-action="Models">Go to Cloud Models</a>
+    </div>
+</div>
+
+
+
